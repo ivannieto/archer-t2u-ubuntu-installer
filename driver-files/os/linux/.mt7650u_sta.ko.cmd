@@ -1,0 +1,1 @@
+cmd_/var/git-projects/archer-t2u-driver-install/files/os/linux/mt7650u_sta.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /var/git-projects/archer-t2u-driver-install/files/os/linux/mt7650u_sta.ko /var/git-projects/archer-t2u-driver-install/files/os/linux/mt7650u_sta.o /var/git-projects/archer-t2u-driver-install/files/os/linux/mt7650u_sta.mod.o
