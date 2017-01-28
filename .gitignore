@@ -29,8 +29,8 @@
 *.hex
 *~
 
-* .vscode
-* check_device.py
+*/.vscode
+*check_device.py
 
 include/mcu/mt7650_firmware.h
 tools/bin2h
