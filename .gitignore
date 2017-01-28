@@ -29,7 +29,7 @@
 *.hex
 *~
 
-*/.vscode
+.vscode/
 *check_device.py
 
 include/mcu/mt7650_firmware.h
