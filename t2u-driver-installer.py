@@ -25,7 +25,7 @@ else:
     if os.path.isdir(PROD_DIR + '/Wireless'):
         pass
     else:
-        os.mkdir(PROD_DIR + '/Wireless/RT2870STA/')
+        os.mkdir(PROD_DIR + '/Wireless/')
         os.mkdir(PROD_DIR + '/Wireless/RT2870STA/')
         
 
