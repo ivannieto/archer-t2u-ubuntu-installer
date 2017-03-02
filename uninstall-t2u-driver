@@ -1,0 +1,15 @@
+#!/bin/bash
+
+read input
+
+case $input in
+	"s")
+	    sudo ifconfig ra0 down;
+            sudo rm -rf /etc/Wireless/RT2870STA;
+            sudo rm -rf /etc/Wireless/RT2860STA;
+            sudo rmmod mt7650u_sta;
+            sudo rm /etc/sysconfig/network-scripts/ifcfg-ra0;
+	    # printf("Uninstalled. Please restart")
+	"n")
+	    # printf("Bye!")
+	    exit 1

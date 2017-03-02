@@ -6,12 +6,15 @@ printf "Please select: [E] Enable or [D] Disable: "
 
 read input
 
-if [ "$input"=="e" ]; then
-    sudo ifconfig ra0 up && sudo service network-manager restart
-    printf "\nEnabled\n"
-elif [ "$input"=="d" ]; then
-    sudo ifconfig ra0 down && sudo service network-manager restart
-    printf "\nDisabled\n"
-fi
+case $input in
+    'e') 
+        sudo ifconfig ra0 up && sudo service networking restart && sudo service network-manager restart
+        printf "\nEnabled\n"
+        ;;
+     'd')
+        sudo ifconfig ra0 down && sudo service networking restart && sudo service network-manager restart
+        printf "\nDisabled\n"
+        ;;
+esac
 
 exit 1

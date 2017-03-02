@@ -3,19 +3,13 @@
 
 Installation:
 
-* Python2.7
-
-    `git clone https://github.com/ivannieto/archer-t2u-ubuntu-installer.git`
-
-    `cd archer-t2u-ubuntu-installer/ && python t2u-installer.py`
-
-* Python3
+* This script uses Python3 syntax:
 
     `git clone https://github.com/ivannieto/archer-t2u-ubuntu-installer.git`
 
     `cd archer-t2u-ubuntu-installer/ && python3 t2u-installer.py`
 
-This script installs the driver for Archer T2U USB Wi-Fi adapter, and it's patched by:
+This script installs the driver for Archer T2U USB Wi-Fi adapter patched by:
 
 * [chenhaiq](https://github.com/chenhaiq)
 * [mt7610u_wifi_sta_v3002_dpo_20130916](https://github.com/chenhaiq/mt7610u_wifi_sta_v3002_dpo_20130916).
