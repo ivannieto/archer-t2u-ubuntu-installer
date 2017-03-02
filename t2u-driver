@@ -2,7 +2,7 @@
 
 # This script provides a fast way to enable or disable ArcherT2U USB adapter
 
-printf "Please select: [E] Enable or [D] Disable: "
+printf "T2U-DRIVER\n\nENABLE OR DISABLE? ('e'|'d') "
 
 read input
 
