@@ -3,8 +3,8 @@
 *.ko
 *.obj
 *.elf
-meetup_tests.py
-MEETUP_NOTES.md
+meetup*.py
+MEETUP*.md
 
 # Precompiled Headers
 *.gch
