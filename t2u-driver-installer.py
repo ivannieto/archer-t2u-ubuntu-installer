@@ -40,6 +40,8 @@ def install():
     # Script generator for running t2u-driver as a system program
     sp.Popen(["sudo cp {0}/t2u-driver {1}/t2u-driver && \
     sudo chmod +x {1}/t2u-driver".format(PATH, BIN_DIR)], shell=True).communicate()
+    sp.Popen(["sudo cp {0}/uninstall-t2u-driver {1}/uninstall-t2u-driver && \
+    sudo chmod +x {1}/uninstall-t2u-driver".format(PATH, BIN_DIR)], shell=True).communicate()
 
     # Restart warning
     print("*"*25+"\n\n\

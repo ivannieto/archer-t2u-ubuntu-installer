@@ -26,3 +26,8 @@ Once you had restarted, you can enable or disable the driver. Plug your USB dong
 
 `sudo t2u-driver`
 
+## Removing t2u-driver from the system
+
+To uninstall t2u-driver type:
+
+`sudo uninstall-t2u-driver`

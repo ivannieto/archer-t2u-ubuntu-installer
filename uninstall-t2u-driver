@@ -2,8 +2,10 @@
 
 read input
 
+printf "Do you want to uninstall t2u-driver completely from your system? [y/n]"
+
 case $input in
-	"s")
+	"y")
 	    sudo ifconfig ra0 down;
             sudo rm -rf /etc/Wireless/RT2870STA;
             sudo rm -rf /etc/Wireless/RT2860STA;
@@ -11,5 +13,5 @@ case $input in
             sudo rm /etc/sysconfig/network-scripts/ifcfg-ra0;
 	    # printf("Uninstalled. Please restart")
 	"n")
-	    # printf("Bye!")
+	    # printf("Nevermind. Bye!")
 	    exit 1
