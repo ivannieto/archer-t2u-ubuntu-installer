@@ -15,7 +15,7 @@ This script installs the driver for Archer T2U USB Wi-Fi adapter patched by:
 * [chenhaiq](https://github.com/chenhaiq)
 * [mt7610u_wifi_sta_v3002_dpo_20130916](https://github.com/chenhaiq/mt7610u_wifi_sta_v3002_dpo_20130916).
 
-It works on systems using Ubuntu <=16.10.
+It works on systems using Ubuntu <=17.10.
 
 For more info configuring the adapter please refer to [CONFIGURATION.md](https://github.com/ivannieto/archer-t2u-ubuntu-installer/blob/master/CONFIGURATION.md).
 
