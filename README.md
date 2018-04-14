@@ -12,7 +12,7 @@ $ git clone --branch 2.0.0 git@github.com:ivannieto/archer-t2u-ubuntu-installer.
 
 ## Clone For Ubuntu 16.04 [1.0.0](https://github.com/ivannieto/archer-t2u-ubuntu-installer/tree/1.0.0)
 ```bash
-$ git clone --branch 2.0.0 git@github.com:ivannieto/archer-t2u-ubuntu-installer.git
+$ git clone --branch 1.0.0 git@github.com:ivannieto/archer-t2u-ubuntu-installer.git
 ```
 
 ## Install
