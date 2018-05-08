@@ -1,3 +1,9 @@
+# IMPORTANT
+
+## This project is no longer maintained
+
+> Thanks to everyone for your support, issue reports and contributions. Sadly I will discontinue the maintenance of the project. I got rid of this dongle, so I can't test it anymore.
+> Feel free to fork, adapt and continue this project to fit your needs.
 
 # Archer T2U Ubuntu installer
 
