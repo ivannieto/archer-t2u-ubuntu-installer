@@ -15,7 +15,7 @@ def take_input():
     Takes input from user
     '''
     i = input("Please, disconnect all devices you're trying to install and press [I]: ")
-    return i
+    return i.lower()
 
 def install():
     '''
@@ -51,6 +51,6 @@ def install():
     Just run in your terminal '$ sudo t2u-driver'.")
 
 while(take_input()!="i"):
-    take_input()
+    continue
 else:
     install()
